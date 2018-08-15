@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements
         // To confirm that the data was passed in, make sure to show the data in a log statement.
         Bundle extra = getIntent().getExtras();
         if (extra != null && extra.containsKey("test")){
-            Log.d(LOG_TAG, "Contains key " + extra.getString("test"));
+            Log.v(LOG_TAG, "Contains key " + extra.getString("test"));
         }
 
     }
